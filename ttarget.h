@@ -6,10 +6,8 @@ class TTarget
 {
 
 private:
-  struct CurrentCoordinates{
-    double CurrX;
-    double CurrY;
-  };
+
+
 public:
   enum TypeTarget {
     Aircraft, Missle
@@ -24,6 +22,8 @@ virtual void SetTypeTarget(enum TypeTarget)=0;
 private:
   double XPoint;
   double YPoint;
+  double CurrentX;
+  double CurrentY;
   double Velocity;
   double AngleCourse;
   double CurrentTime;

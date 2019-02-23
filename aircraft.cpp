@@ -10,5 +10,5 @@ Aircraft::~Aircraft(){
 }
 void Aircraft:: Move ( double CurrentTime) {
 
-
+// Как использовать CurrentX и CurrentY
 }
